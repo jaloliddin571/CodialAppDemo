@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.codialappdemo.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/addCourseMentor"
+        android:name="com.example.codialappdemo.fragment.Mentor.AllCourseMentor"
+        android:label="fragment_add_course_mentor"
+        tools:layout="@layout/fragment_add_course_mentor" />
+    <fragment
+        android:id="@+id/addGroup"
+        android:name="com.example.codialappdemo.fragment.group.AddGroup"
+        android:label="fragment_add_group"
+        tools:layout="@layout/fragment_add_group" />
+    <fragment
+        android:id="@+id/addMentor"
+        android:name="com.example.codialappdemo.fragment.Mentor.AddMentor"
+        android:label="fragment_add_mentor"
+        tools:layout="@layout/fragment_add_mentor" />
+    <fragment
+        android:id="@+id/addStudentInGroup"
+        android:name="com.example.codialappdemo.fragment.group.AddStudentInGroup"
+        android:label="fragment_add_student_in_group"
+        tools:layout="@layout/fragment_add_student_in_group" />
+    <fragment
+        android:id="@+id/allCourseGroup"
+        android:name="com.example.codialappdemo.fragment.group.AllCourseGroup"
+        android:label="fragment_all_course_group"
+        tools:layout="@layout/fragment_all_course_group" />
+    <fragment
+        android:id="@+id/allCoursesFragment"
+        android:name="com.example.codialappdemo.fragment.course.AllCoursesFragment"
+        android:label="fragment_all_courses"
+        tools:layout="@layout/fragment_all_courses" />
+    <fragment
+        android:id="@+id/groupsOpened"
+        android:name="com.example.codialappdemo.fragment.group.GroupsOpened"
+        android:label="fragment_groups_opened"
+        tools:layout="@layout/fragment_groups_opened" />
+    <fragment
+        android:id="@+id/groupsOpening"
+        android:name="com.example.codialappdemo.fragment.group.GroupsOpening"
+        android:label="fragment_groups_opening"
+        tools:layout="@layout/fragment_groups_opening" />
+    <fragment
+        android:id="@+id/viewGroup"
+        android:name="com.example.codialappdemo.fragment.group.ViewGroup"
+        android:label="fragment_view_group"
+        tools:layout="@layout/fragment_view_group" />
+    <fragment
+        android:id="@+id/allGroup"
+        android:name="com.example.codialappdemo.fragment.group.AllGroup"
+        android:label="fragment_all_group"
+        tools:layout="@layout/fragment_all_group" />
+    <fragment
+        android:id="@+id/allCourses"
+        android:name="com.example.codialappdemo.fragment.course.AllCourses"
+        android:label="fragment_all_courses"
+        tools:layout="@layout/fragment_all_courses" />
+    <fragment
+        android:id="@+id/allMentor_zzz"
+        android:name="com.example.codialappdemo.fragment.Mentor.AllMentor_zzz"
+        android:label="fragment_all_mentor_zzz"
+        tools:layout="@layout/fragment_all_mentor_zzz" />
+    <fragment
+        android:id="@+id/courseInfo_zzz"
+        android:name="com.example.codialappdemo.fragment.course.CourseInfo_zzz"
+        android:label="fragment_course_info_zzz"
+        tools:layout="@layout/fragment_course_info_zzz" />
+</navigation>
